@@ -38,7 +38,7 @@ We decided to make a .css file for our component, so we made the file students.c
 ### Inside your component .js File
 1. Create a basic component 
 2. Import useState and useEffect hooks from react
-3. Inside your return function, create a basic <div> with and <h2> Tittle with the name of you component
+3. Inside your return function, create a basic `<div>` with and `<h2>` Tittle with the name of you component
 4. Set the initial variables for your state according to your data (for this project is students) and set the initial value to be an empty array
 5. We will use the useEffect hook to bring the data from your server each time the component renders. Notice that the second argument to that function is an empty array. That controls how often the effect executes. If it is empty, it will only execute once. 
 6. Fetch returns a promise, so we're using `.then` to convert your response into json data and `.then` again to change the value of your State with setState and do a little `console.log` for sanity reasons.   
