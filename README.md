@@ -50,7 +50,6 @@ We decided to make a .css file for our component, so we made the file students.c
 At this point, you should see the data from your server in your react localhost. 
 
 ### To run just one server with concurrently
-### To run just one server with concurrently
 Inside your package.json in your `server.js` file add the client and dev scripts with: 
 ```
 "client": "npm start --prefix client",
@@ -58,6 +57,9 @@ Inside your package.json in your `server.js` file add the client and dev scripts
 ```
 Make sure that you're copy-pasting the correct number of quotes. 
 Now, to run both servers just type the command `npm run dev`
+
+### To add a Postgres DB
+In a new terminal window, go to your project directory and run the command `psql -U postgres -f db.sql` that will create a database `techtonica` and a table `students` with 6 rows. 
 
 
 # Quick-setup (if you want to use this as your template)
