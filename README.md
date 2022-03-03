@@ -5,7 +5,7 @@ Create full stack apps with React and Express. Run your client and server with a
 ### For creating the server (using Express)
 1. Make a new directory for your project. 
 2. cd into your new directory 
-3. create a package.json with the command `npm install`
+3. create a package.json with the command `npm init`
 4. Make sure that the main file in your package is `server.js`
 4. Install all the dependencies with the commands:`npm i express`, `npm i cors` and `npm i concurrently`
 5. Install the module nodemon in the dev server with the command `npm i nodemon --save-dev`
