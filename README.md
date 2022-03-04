@@ -50,7 +50,7 @@ We decided to make a .css file for our component, so we made the file students.c
 At this point, you should see the data from your server in your react localhost. 
 
 ### To run just one server with the module concurrently
-Inside your package.json in your `server.js` file add the client and dev scripts with: 
+Inside your package.json in your `serve` directory add these client and dev scripts with: 
 ```
 "client": "npm start --prefix client",
  "dev": "concurrently \"npm run server\" \"npm run client\""
